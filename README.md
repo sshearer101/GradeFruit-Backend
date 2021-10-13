@@ -81,4 +81,6 @@ Get/api/students
 
 ## Wireframes
 
+![image](https://user-images.githubusercontent.com/85294886/137191349-752f326b-ac5f-4bf7-9576-37ff636a977b.png)
+
 
