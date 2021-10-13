@@ -76,12 +76,5 @@ Get/api/students
 	teacher_id: 1
 }
 
-![image](https://user-images.githubusercontent.com/85294886/137188724-4762b914-f9d3-42bf-ab8c-5ae482efc239.png)
-
-![image](https://user-images.githubusercontent.com/85294886/137188754-f3382970-8cdc-43c9-b5c9-31418fe33b53.png)
-
-![image](https://user-images.githubusercontent.com/85294886/137188771-61ed09b7-f464-492b-a2a2-1fa4146b750a.png)
-
-![image](https://user-images.githubusercontent.com/85294886/137188782-1be08651-761d-4590-91fb-11e90597c33c.png)
-
+![image](https://user-images.githubusercontent.com/85294886/137189041-328b6b87-b9af-4c4f-a7a4-ec56abbaecf2.png)
 
