@@ -94,7 +94,19 @@ Get/api/students
 	teacher_id: 1
 }`
 
+Get/api/assignments/:id
+
+`{
+	id: 1
+	name: "States Map Quiz"
+	assignment_link: ""
+	grade: ""
+	student_id: ""
+	teacher_id: ""
+}`
+
+
+
 ## Wireframes
 
-
-
+https://ninjamock.com/Designer/Workplace/161968460/Login 
