@@ -53,7 +53,7 @@ A Student belongs to a Teacher
 
 GET/api/teachers/:id
 
-{
+```{
 	id: 1
 	full_name: “Sam Shearer”
 	username: “Mr. Shearer”
@@ -65,7 +65,7 @@ GET/api/teachers/:id
 
 Get/api/students
 
-{
+```{
 	id: 1
 	full_name: "John Devins"
 	username: "jdevins"
@@ -76,5 +76,6 @@ Get/api/students
 	teacher_id: 1
 }
 
-![image](https://user-images.githubusercontent.com/85294886/137189041-328b6b87-b9af-4c4f-a7a4-ec56abbaecf2.png)
+## Wireframes
+
 
