@@ -65,7 +65,7 @@ GET/api/teachers/:id
 
 Get/api/students
 
-```{
+{
 	id: 1
 	full_name: "John Devins"
 	username: "jdevins"
@@ -74,7 +74,7 @@ Get/api/students
 	grade_level: "10th Grade"
 	grade: "77%"
 	teacher_id: 1
-}
+}```
 
 ## Wireframes
 
