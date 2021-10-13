@@ -56,19 +56,19 @@ A Student belongs to a Teacher
 
 GET/api/teachers/:id
 
-{
+`{
 	id: 1
 	full_name: “Sam Shearer”
 	username: “Mr. Shearer”
 	password: “flatiron”
 	image_link: “”
 	grade_level: “10th grade”
-}
+}`
 
 
 Get/api/students
 
-{
+`{
 	id: 1
 	full_name: "John Devins"
 	username: "jdevins"
@@ -77,7 +77,7 @@ Get/api/students
 	grade_level: "10th Grade"
 	grade: "77%"
 	teacher_id: 1
-}
+}`
 
 ## Wireframes
 
