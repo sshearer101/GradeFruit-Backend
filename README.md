@@ -109,4 +109,16 @@ Get/api/assignments/:id
 
 ## Wireframes
 
-https://ninjamock.com/Designer/Workplace/161968460/Login 
+![image](https://user-images.githubusercontent.com/85294886/137209288-7b9e4516-5c35-4ee6-844b-154141e653e7.png)
+
+![image](https://user-images.githubusercontent.com/85294886/137209340-f05f88be-cbbf-42a8-9324-5f0e9e06150e.png)
+
+![image](https://user-images.githubusercontent.com/85294886/137209370-6ede4649-5023-44a7-911a-d4695c251322.png)
+
+![image](https://user-images.githubusercontent.com/85294886/137209388-3bae1fcf-28f9-4d99-b25c-8681e27bcc30.png)
+
+![image](https://user-images.githubusercontent.com/85294886/137209422-4f3d331f-f641-49c6-acec-bf1a50ab05fa.png)
+
+![image](https://user-images.githubusercontent.com/85294886/137209451-2b2df1e3-7de9-4b13-ae92-ff70adb90445.png)
+
+
