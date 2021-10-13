@@ -21,3 +21,59 @@ A platform to bring the classroom online. Teachers will be able to interact and 
 - As a student, I want to be able to submit assignments 
 - As a student I want to be able to message the teacher
 - As a student I want to be able to contribute to discussion posts
+
+## Models and Relationships
+
+![image](https://user-images.githubusercontent.com/85294886/137011003-652b5ee4-59a4-45be-a24f-55e2adc3af6c.png)
+
+Teacher
+
+A Teacher has many Students
+
+- id 
+- full_name
+- username
+- password
+- image_link
+- grade_level
+
+Student 
+
+A Student belongs to a Teacher
+
+- full_name
+- username
+- password
+- image_link
+- grade_level
+- grade
+- teacher_id
+
+## API Documentation
+
+GET/api/teachers/:id
+
+{
+	id: 1
+	full_name: “Sam Shearer”
+	username: “Mr. Shearer”
+	password: “flatiron”
+	image_link: “”
+	grade_level: “10th grade”
+}
+
+
+Get/api/students
+
+{
+	id: 1
+	full_name: "John Devins"
+	username: "jdevins"
+	password: "123"
+	image_link: ""
+	grade_level: "10th Grade"
+	grade: "77%"
+	teacher_id: 1
+}
+
+
