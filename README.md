@@ -30,12 +30,12 @@ A platform to bring the classroom online. Teachers will be able to interact and 
 
 ## Models and Relationships
 
-![image](https://user-images.githubusercontent.com/85294886/137011003-652b5ee4-59a4-45be-a24f-55e2adc3af6c.png)
+![image](https://user-images.githubusercontent.com/85294886/137193180-0848b0f9-0410-4845-a827-ee68d3e396db.png)
 
 
 ### Teacher
 
-A `Teacher` has many `Students`
+A `Teacher` has many `Students` and `Assignments`
 
 - id 
 - full_name
@@ -48,6 +48,7 @@ A `Teacher` has many `Students`
 ### Student 
 
 A `Student` belongs to a `Teacher`
+A `Student` has many `Assignments`
 
 - full_name
 - username
@@ -56,6 +57,10 @@ A `Student` belongs to a `Teacher`
 - grade_level
 - grade
 - teacher_id
+
+### Assignment
+
+An `Assignment` belongs to a `Teacher` and `Student`
 
 
 ## API Documentation
