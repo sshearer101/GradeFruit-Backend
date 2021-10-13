@@ -12,7 +12,7 @@ A platform to bring the classroom online. Teachers will be able to interact and 
 - As a teacher, I want to be able to see my students and their grades
 - As a teacher, I want to be able to create assignments for my students
 - As a teacher, I want to be able to link assignments to GitHub or google docs
-- As a teacher, I want to be able to organize a grade book based on weighted categories
+- As a teacher, I want to be able to organize a gradebook based on weighted categories
 - As a teacher, I want to be able to message my class or my students individually
 - As a teacher, I want to be able to search for students by name
 - As a teacher, I want to be able to create discussion posts
