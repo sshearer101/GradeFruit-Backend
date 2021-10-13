@@ -47,8 +47,7 @@ A `Teacher` has many `Students` and `Assignments`
 
 ### Student 
 
-A `Student` belongs to a `Teacher`
-A `Student` has many `Assignments`
+A `Student` belongs to a `Teacher` and a `Student` has many `Assignments`
 
 - full_name
 - username
@@ -61,6 +60,11 @@ A `Student` has many `Assignments`
 ### Assignment
 
 An `Assignment` belongs to a `Teacher` and `Student`
+
+- assignment_link
+- grade
+- teacher_id
+- student_id
 
 
 ## API Documentation
