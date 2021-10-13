@@ -41,7 +41,7 @@ A `Teacher` has many `Students`
 
 ### Student 
 
-A Student belongs to a Teacher
+A `Student` belongs to a `Teacher`
 
 - full_name
 - username
