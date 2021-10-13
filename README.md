@@ -26,6 +26,7 @@ A platform to bring the classroom online. Teachers will be able to interact and 
 
 ![image](https://user-images.githubusercontent.com/85294886/137011003-652b5ee4-59a4-45be-a24f-55e2adc3af6c.png)
 
+
 Teacher
 
 A Teacher has many Students
@@ -36,6 +37,7 @@ A Teacher has many Students
 - password
 - image_link
 - grade_level
+
 
 Student 
 
@@ -48,6 +50,7 @@ A Student belongs to a Teacher
 - grade_level
 - grade
 - teacher_id
+
 
 ## API Documentation
 
