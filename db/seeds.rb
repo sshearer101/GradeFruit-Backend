@@ -44,3 +44,4 @@ student16 = User.create(full_name: "Johnny Smith", username: "jsmith",  password
 
 puts "test"
 puts shearer.full_name
+
