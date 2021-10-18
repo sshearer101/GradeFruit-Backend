@@ -1,5 +1,21 @@
 Rails.application.routes.draw do
-  # resources :students
-  resources :teachers, only: :index
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  
+  post '/login', to: 'auth#create'
+  get '/profile', to: 'users#profile'
+  
+
+  resources :users, only: [:index, :show, :create, :update, :destroy]
+
+  resources :assignments
+
+  post "/signup", to: "users#create"
+  get "/me", to: "users#show"
+
+
+  
+  # post "/login", to:
+  # delete "/logout", to:
+
+
+
 end
