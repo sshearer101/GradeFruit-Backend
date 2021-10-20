@@ -9,7 +9,7 @@ class User < ApplicationRecord
 
     belongs_to :teacher, class_name: "User"
 
-    validates :username, uniqueness: true
+    validates :username, uniqueness: { case_sensitive: false }
 
 
 

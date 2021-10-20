@@ -1,4 +1,4 @@
-# class Student < ApplicationRecord
-#     belongs_to :teacher
-#     has_many :assignments
-# end
+class Student < ApplicationRecord
+    belongs_to :teacher
+    has_many :assignments
+end

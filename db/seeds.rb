@@ -2,7 +2,7 @@ User.destroy_all
 
 shearer = User.create(full_name: "Sam Shearer", username: "sshearer",  password: "123", grade_level: "10th Grade", image_link: "", role: "teacher", grade: "", teacher_id: 1)
  
-martin = Teacher.create(full_name: "Rachel Martin", username: "rmartin",  password: "123", image_link: "", grade_level: "12th Grade",  role: "teacher")
+martin = Teacher.create(full_name: "Rachel Martin", username: "rmartin", password_digest: "123", image_link: "", grade_level: "12th Grade",  role: "teacher")
 
 
 

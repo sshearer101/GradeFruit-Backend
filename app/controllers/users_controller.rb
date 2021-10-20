@@ -56,7 +56,7 @@ end
 
 
     def user_params
-      params.require(:user).permit(:username, :password)
+      params.require(:user).permit(:full_name, :username, :password, :grade_level, :image_link, :role, :grade, :teacher_id)
     end
   
 end
