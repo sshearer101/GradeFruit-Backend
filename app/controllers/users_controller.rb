@@ -17,7 +17,8 @@ end
 
   def create
     @user = User.create(user_params)
-    if @user.valid?
+    if @user.valid? 
+      @token = encode_token({ user_id: @user.id })
       render json: { user: UserSerializer.new(@user) }, status: :created
     else
       render json: { error: 'failed to create user' }, status: :unprocessable_entity
@@ -56,7 +57,7 @@ end
 
 
     def user_params
-      params.require(:user).permit(:full_name, :username, :password, :grade_level, :image_link, :role, :grade, :teacher_id)
+      params.require(:user).permit(:full_name, :username, :password, :password_confirmation, :grade_level, :image_link, :role, :grade, :math, :science, :social_studies, :language_arts, :teacher_id)
     end
   
 end

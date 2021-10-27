@@ -8,6 +8,11 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.string :image_link
       t.string :role 
       t.string :grade
+      t.string :math
+      t.string :science
+      t.string :social_studies
+      t.string :language_arts
+      t.string :subject
       t.integer :teacher_id
       
 

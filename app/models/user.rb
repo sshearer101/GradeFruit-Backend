@@ -3,14 +3,9 @@ class User < ApplicationRecord
 
     has_many :students, class_name: "User", foreign_key: "teacher_id"
 
-    has_many :assignments
-    has_many :classes
+    has_many :courses
 
-
-    belongs_to :teacher, class_name: "User"
-
+    belongs_to :teacher, class_name: "User", optional: true
     validates :username, uniqueness: { case_sensitive: false }
-
-
 
 end
