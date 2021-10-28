@@ -26,7 +26,7 @@ class AssignmentsController < ApplicationController
 
 
   def assignment_params
-    params.permit(:name, :assignment_link, :grade, :due_date, :teacher_id)
+    params.require(:assignment).permit(:name, :assignment_link, :grade, :due_date, :course_id)
   end
 
 end
