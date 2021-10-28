@@ -4,8 +4,8 @@ class CreateAssignments < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :assignment_link
       t.string :grade
-      t.integer :teacher_id
-      t.integer :student_id
+      t.string :due_date
+      t.integer :course_id
 
       t.timestamps
     end
